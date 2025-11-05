@@ -1,12 +1,12 @@
-# 🍽️ Restaurant Analytics & Recommendation System
+#  Restaurant Analytics & Recommendation System
 
-## 📘 Project Overview
+## Project Overview
 This project focuses on analyzing global restaurant data to identify key factors that make restaurants “star performers” and to generate intelligent recommendations. By combining data inspection, cleaning, and exploratory data analysis (EDA), the project uncovers insights into restaurant ratings, cuisines, cost, delivery options, and geographic trends.  
 The goal is to build a data-driven foundation for identifying top-performing restaurants and improving user experience on a B2C portal. Through Tableau visual analytics, decision-makers can better understand restaurant performance and customer preferences to guide business strategy and franchising decisions.
 
 ---
 
-## 🧾 Overview about Dataset
+##  Overview about Dataset
 The project uses two datasets:
 - **data.csv** — contains restaurant attributes (19 columns)
 - **Country-Code.csv** — provides country mapping for each restaurant  
@@ -15,7 +15,7 @@ The combined dataset includes restaurants across multiple countries, cities, and
 
 ---
 
-## 🔑 Key Attributes Include
+##  Key Attributes Include
 - **Restaurant ID:** Unique identifier for each restaurant  
 - **Restaurant Name:** Name of the restaurant  
 - **Country Code:** Country reference key  
@@ -30,7 +30,7 @@ The combined dataset includes restaurants across multiple countries, cities, and
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Perform data inspection and cleaning to ensure dataset quality  
 - Explore the geographical and operational distribution of restaurants  
 - Analyze cuisine trends, cost behavior, and delivery options  
@@ -39,7 +39,7 @@ The combined dataset includes restaurants across multiple countries, cities, and
 
 ---
 
-## ⚙️ Workflow of Project
+## Workflow of Project
 
 ### **1. Initial Data Analysis**
 - Checked structure, missing values, and duplicates  
@@ -61,7 +61,7 @@ The combined dataset includes restaurants across multiple countries, cities, and
 
 ---
 
-## 📊 Tools and Technologies
+##  Tools and Technologies
 - **Python:** Pandas, NumPy, Matplotlib, Seaborn  
 - **Visualization:** Tableau  
 - **Notebook Environment:** Jupyter Notebook  
@@ -69,7 +69,7 @@ The combined dataset includes restaurants across multiple countries, cities, and
 
 ---
 
-## 🏁 Conclusion
+##  Conclusion
 The analysis provides insights into restaurant operations, customer preferences, and factors influencing ratings.  
 Findings highlight:
 - Popular cuisines and cost variations by city  
