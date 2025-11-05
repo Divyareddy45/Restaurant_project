@@ -58,7 +58,7 @@ The combined dataset includes restaurants across multiple countries, cities, and
 ### **3. Dashboarding (Tableau)**
 - Developed interactive Tableau dashboards for insight visualization  
 - Created maps and charts for restaurant distribution and cuisine popularity  
-- Displayed key performance indicators (KPIs) such as top-rated restaurants, average cost, and delivery availability  
+- Displayed top-rated restaurants, average cost, and delivery availability  
 
 ---
 
