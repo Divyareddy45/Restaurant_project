@@ -1,62 +1,94 @@
-# 🍽️ Restaurant Analytics and Recommendation System
+# 🍽️ Restaurant Analytics & Recommendation System
 
 ## 📘 Project Overview
-A restaurant consolidator wants to revamp its B2C portal using intelligent automation.  
-This project analyzes restaurant data to identify **star restaurants** and generate **data-driven recommendations** using Python, Pandas, and Tableau.
+This project focuses on analyzing global restaurant data to identify key factors that make restaurants “star performers” and to generate intelligent recommendations. By combining data inspection, cleaning, and exploratory data analysis (EDA), the project uncovers insights into restaurant ratings, cuisines, cost, delivery options, and geographic trends.  
+The goal is to build a data-driven foundation for identifying top-performing restaurants and improving user experience on a B2C portal. Through Tableau visual analytics, decision-makers can better understand restaurant performance and customer preferences to guide business strategy and franchising decisions.
 
 ---
 
-## 🧾 Datasets
-- `data.csv` — Contains restaurant attributes (19 columns)
-- `Country-Code.csv` — Contains country mapping for restaurants
+## 🧾 Overview about Dataset
+The project uses two datasets:
+- **data.csv** — contains restaurant attributes (19 columns)
+- **Country-Code.csv** — provides country mapping for each restaurant  
+
+The combined dataset includes restaurants across multiple countries, cities, and cuisines, along with details on ratings, cost, delivery availability, and customer votes.
 
 ---
 
-## 🧹 Data Preprocessing
-- Checked data structure, missing values, and duplicates
-- Merged `Country-Code` with main dataset
-- Cleaned categorical and numerical columns
+## 🔑 Key Attributes Include
+- **Restaurant ID:** Unique identifier for each restaurant  
+- **Restaurant Name:** Name of the restaurant  
+- **Country Code:** Country reference key  
+- **City:** Location of the restaurant  
+- **Cuisines:** Types of cuisines served  
+- **Average Cost for Two:** Estimated dining cost  
+- **Has Table Booking:** Indicates if table booking is available  
+- **Has Online Delivery:** Indicates if delivery service is available  
+- **Votes:** Number of customer votes  
+- **Aggregate Rating:** Overall customer rating  
+- **Rating Text:** Qualitative rating (e.g., Excellent, Good, Poor)  
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
-- Restaurant distribution by city and country
-- Franchise analysis for national presence
-- Ratios of table booking and online delivery
-- Cuisine trends and cost distribution
-- Ratings and votes analysis
+## 🎯 Objectives
+- Perform data inspection and cleaning to ensure dataset quality  
+- Explore the geographical and operational distribution of restaurants  
+- Analyze cuisine trends, cost behavior, and delivery options  
+- Study factors influencing restaurant ratings  
+- Build an interactive Tableau dashboard to identify “Star Restaurants”  
 
 ---
 
-## 📊 Tableau Dashboard
-- Interactive visuals to identify “Star Restaurants”
-- Filters for country, city, and cuisine
-- Key metrics: average rating, top franchise, delivery ratio
+## ⚙️ Workflow of Project
+
+### **1. Initial Data Analysis**
+- Checked structure, missing values, and duplicates  
+- Removed duplicates and standardized categorical data  
+- Merged `data.csv` with `Country-Code.csv` for comprehensive analysis  
+
+### **2. Exploratory Data Analysis (EDA)**
+- Identified cities with the highest and lowest number of restaurants  
+- Analyzed franchises with national presence  
+- Calculated ratios for table booking and online delivery  
+- Compared votes and ratings for delivery vs. non-delivery restaurants  
+- Determined top cuisines across cities and popular cuisines per country  
+- Studied cost distribution and factors affecting restaurant ratings  
+
+### **3. Dashboarding (Tableau)**
+- Developed interactive Tableau dashboards for insight visualization  
+- Created maps and charts for restaurant distribution and cuisine popularity  
+- Displayed key performance indicators (KPIs) such as top-rated restaurants, average cost, and delivery availability  
 
 ---
 
-## 🧠 Technologies Used
-- Python (Pandas, NumPy, Matplotlib, Seaborn)
-- Jupyter Notebook
-- Tableau
-- GitHub
+## 📊 Tools and Technologies
+- **Python:** Pandas, NumPy, Matplotlib, Seaborn  
+- **Visualization:** Tableau  
+- **Notebook Environment:** Jupyter Notebook  
+- **Version Control:** Git and GitHub  
 
 ---
 
-## 🏆 Key Insights
-- Cities with most and least restaurants
-- Top cuisines served across regions
-- Delivery vs. non-delivery restaurant performance
-- Rating factors influencing customer satisfaction
+## 🏁 Conclusion
+The analysis provides insights into restaurant operations, customer preferences, and factors influencing ratings.  
+Findings highlight:
+- Popular cuisines and cost variations by city  
+- The impact of delivery and table booking on customer satisfaction  
+- Rating trends across geographic regions  
+
+This project establishes a foundation for identifying “Star Restaurants” and supports the implementation of intelligent automation for restaurant recommendations. Future improvements may include machine learning models for automated rating prediction and personalized recommendations.
 
 ---
 
-## 🧩 Future Work
-- Add machine learning model for automated restaurant recommendation
-- Deploy dashboard using Tableau Public or Streamlit
 
----
 
-## 👩‍💻 Author
-**Ramya Gary**
+
+
+
+
+
+
+
+
+
 
